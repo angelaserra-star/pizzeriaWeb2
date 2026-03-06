@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzeria Da Mario - Web</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; background-color: #f8f1e5; }
+        .menu { display: flex; justify-content: center; gap: 20px; padding: 20px; }
+        .pizza-card { border: 1px solid #ccc; padding: 15px; background: white; border-radius: 10px; width: 200px; }
+        img { width: 100%; height: 150px; object-fit: cover; border-radius: 5px; }
+        button { background-color: #e44d26; color: white; border: none; padding: 10px 20px; cursor: pointer; border-radius: 5px; margin-top: 10px; }
+        button:hover { background-color: #c13d1a; }
+    </style>
+</head>
+<body>
+
+    <h1>🍕 Pizzeria Da Mario 🍕</h1>
+    <p>Benvenuti nel nostro menu digitale. Scegli la tua pizza preferita!</p>
+
+    <div class="menu">
+        <div class="pizza-card">
+            <img src="https://via.placeholder.com/200x150?text=Margherita" alt="Pizza Margherita">
+            <h3>Margherita</h3>
+            <p>Pomodoro, mozzarella, basilico.</p>
+            <button onclick="alert('Hai scelto Margherita!')">Ordina Ora</button>
+        </div>
+
+        <div class="pizza-card">
+            <img src="https://via.placeholder.com/200x150?text=Diavola" alt="Pizza Diavola">
+            <h3>Diavola</h3>
+            <p>Pomodoro, mozzarella, salamino piccante.</p>
+            <button onclick="alert('Hai scelto Diavola!')">Ordina Ora</button>
+        </div>
+
+        <div class="pizza-card">
+            <img src="https://via.placeholder.com/200x150?text=Quattro+Stagioni" alt="Pizza 4 Stagioni">
+            <h3>4 Stagioni</h3>
+            <p>Carciofi, funghi, prosciutto, olive.</p>
+            <button onclick="alert('Hai scelto 4 Stagioni!')">Ordina Ora</button>
+        </div>
+    </div>
+
+</body>
+</html>
